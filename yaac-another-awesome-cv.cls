@@ -386,11 +386,13 @@
 \newcommand\emptySeparator{\multicolumn{2}{c}{}\\}
 
 \newcommand*\twocolumnsection[2]{
-  \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
+%   \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
+  \begin{minipage}[t]{\dimexpr(\linewidth/2) - 1em}
     #1
   \end{minipage}
   \hfill
-  \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
+%   \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
+  \begin{minipage}[t]{\dimexpr(\linewidth/2) - 1em}
     #2
   \end{minipage}
   }
